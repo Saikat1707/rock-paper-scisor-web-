@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rockPaper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>rockpaper</title>
+</head>
+<body>
+    <!-- heading start -->
+    <div class="container-fluid" id="heading-main">
+        <div class="row" id="heading-submain">
+            <div class="col-12 d-flex justify-content-center align-items-center" id="heading-text">
+                <p><span style="color: grey;">ROCK</span>-PAPER-<span style="color: rgb(0, 132, 255);">SCISSOR</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- rock paper scissor start -->
+    <div class="conatiner-fluid" id="opt-main">
+        <div class="row" id="opt-submain">
+            <div class="col-3 d-flex justify-content-center align-items-center choice" id="rock">
+                <i class="fa-solid fa-hand-back-fist"></i>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center choice" id="paper">
+                <i class="fa-solid fa-hand"></i>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center choice" id="scissor">
+                <i class="fa-solid fa-hand-scissors"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- score start-->
+    <div class="container-fluid d-flex justify-content-center align-items-center" id="score-main">
+        <div class="row d-flex justify-content-around align-items-center" id="score-submain">
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" id="my-score">
+                <p id="myscore-1">0</p>
+                <p id="myscore-2">Your Score</p>
+            </div>
+            <div class="col-3 d-flex justify-content-center align-items-center flex-column" id="comp-score">
+                <p id="compscore-1">0</p>
+                <p id="compscore-2">Computer Score</p>
+            </div>
+        </div>
+    </div>
+    <!-- msg start -->
+    <div class="container-fluid" id="msg-main">
+        <div class="row" id="msg-submain">
+            <div class="col-3 " id="msgbox">
+                <p>Pick Your Choice</p>
+            </div>
+        </div>
+    </div>
+
+   
+    <!-- script tag -->
+    <script src="rockPaper.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
